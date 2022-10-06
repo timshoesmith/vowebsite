@@ -1,0 +1,218 @@
+:root {
+    --primary-color: #f6904e; /*246,144,78 rgb */
+    /* --secondary-color: #32330c; 50,51,12 rgb */
+    --secondary-color: #5E4EA3; /*50,51,12 rgb */
+    --gray-color: #707070;
+}
+
+/* .display-flex           change div to flex */
+/* .container              add a container width .container */
+/* .center-text            in div eg over picture */
+/* .iframe-container       sets up video link * */
+/*.audio-demos             Three audio tracks in div */
+/*.video-container         Video contaner */
+/*.work-title-div          adds background accross with for image title*/
+/*.examples-of-work-title  formats title in the image title section*/
+/*.section-title           adds a section title */
+/*.image-div               four logos in square */
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+a {
+    color: white;
+}
+
+/*Changes div to flex default directions*/
+.display-flex {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.display-direction-column {
+    flex-direction: column;
+}
+.display-direction-row {
+    flex-direction: row;
+}
+.display-direction-reverse {
+    flex-direction: row-reverse;
+}
+
+.full-width-section {
+    width: 100%;
+}
+.half-width-section {
+    width: 50%;
+}
+
+.third-width-section {
+    width: 33%;
+}
+.two-third-width-section {
+    width: 66%;
+}
+
+/* sets width of container */
+.container {
+    padding: 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+   
+    /* border: 1px solid black; */
+}
+
+/* centers text in div */
+.center-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* sets up video link */
+.iframe-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  }
+.iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+
+/* Three audio tracks in div */
+.audio-demos {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.audio-track {
+    padding: 10px 0;
+    width: 100%;
+}
+
+
+/* Video contaner */
+.video-demos {
+    width: 50%;
+    padding: 20px 0;
+}
+
+/* Title of section with backgroud image full width */
+.picture-title-div {
+    max-width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+ }
+ 
+ 
+ /*formats title in the image title section*/
+ .picture-title-font {
+     color: white;
+     font-size: 3rem;
+      
+ }
+
+ /*adds a section title*/
+.section-title {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #707070;
+    text-align: center;
+    padding: 20px 0;
+}
+
+
+ /* logos and their  rows */
+ img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Four logos in square */
+.image-div-square {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    margin: 20px 0;
+}
+.image-div-row {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    margin: 20px 0;
+}
+
+.image-div-row-1 {
+    display: flex;
+    justify-content: space-around;
+}
+.image-div-row-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.single-img-div {
+    padding: 20px;
+    width: 35%;
+  
+}
+
+/* Text box */
+
+.text-box {
+    background-color: white;
+    /* margin: 20px 20px 20px 0; */
+    padding: 20px 20px;
+}
+
+.text-title {
+    text-align: center;
+    padding: 20px 0;
+    font-weight:normal;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.paragraph-text {
+    font-size: 16px;
+    padding-bottom: 20px;
+}
+
+/* Quote Card */
+
+.review-card {
+    width: 40%;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    box-shadow: 2px 2px var(--primary-color);
+    display: block;
+}
+.review-card-quote {
+    padding: 20px 0;
+    font-style: italic; 
+}
+
+.review-card-person {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 20px 0;
+}

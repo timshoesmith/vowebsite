@@ -1,0 +1,483 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:wght@200;300;400;500;600;700;800&family=Roboto:wght@400;700&display=swap');
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+/* utility Classes */
+
+
+/*Above the fold*/
+
+.demos-strapline {
+    text-align: center;
+}
+
+.demos-strapline span a {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.examples-of-work-container {
+    background-color: #c9c9c9;
+}
+
+/*Title background images*/
+.work-examples-bg-image {
+    background: url(./img/titles/work-title.jpg);
+}
+.about-bg-image {
+    background: url(./img/titles/about-title.jpg);
+}
+.client-bg-image {
+    background: url(./img/titles/client-title.jpg);
+}
+.review-bg-image {
+    background: url(./img/titles/Review-title.jpg);
+}
+.contact-bg-image {
+    background: url(./img/titles/contact.jpg);
+}
+
+
+
+ /*Big contact button orange*/
+ .orange-button {
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 3rem;
+    width: 50%;
+    height: auto;
+    padding: 20px;
+    border: 2px solid var(--secondary-color);
+    border-radius: 25px;
+ }
+
+ .orange-button:hover {
+    background-color: var(--secondary-color);
+    border: 2px solid (var(--primary-color));
+    transition: 0.3s ease;
+ }
+
+ .book-image-container {
+    padding: 20px;
+ }
+
+ .audio-book-card {
+    background-color: white;
+    margin: 20px 0;
+}
+
+.audio-book-text-title {
+    padding: 20px 0;
+    font-weight:normal;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.audio-book-author {
+    font-weight: bold;
+    font-size: 24px;
+    padding: 20px 0;
+
+}
+
+.audio-track-book {
+    padding: 20px 0;
+}
+
+.logos-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* background-image: linear-gradient(rgba(189, 195, 199, 0.9),rgba(44, 62, 80, 0.9)); */
+    background-image: linear-gradient(rgba(94, 78, 163, 0.9),rgba(246, 144, 78, 0.9));
+    
+}
+
+.single-logo-div {
+    padding: 20px;
+    width: 25%;
+}
+
+/* Quotes Section */
+
+.quote-container {
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+/* About section */
+
+.image-box {
+    padding: 20px 0;
+}
+
+.image-justify-right {
+    display: flex;
+    justify-content: right;
+}
+.image-justify-left {
+    display: flex;
+    justify-content: left;
+}
+
+
+#map {
+    width: 50%;
+    height: 400px;
+    padding: 20px;
+    z-index: -10;
+   
+}
+
+
+.contact-details-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-title, .contact-phone, .contact-email {
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+.contact-details-container a {
+    color: black;
+}
+
+.email-container, .phone-container {
+    align-items: center;
+}
+
+.icon {
+    height: 50px;
+    width: 50px;
+    padding: 5px 0;
+}
+
+
+/*Form controls*/
+
+.form-container {
+    padding: 20px;
+}
+
+.form-box {
+    width: 80%;
+    padding: 20px;
+}
+
+.form-title {
+    font-size: 24px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+  .form-button {
+    font-size: 30px;
+    padding: 20px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-radius: 25px;
+  }
+
+
+  /*Footer*/
+
+  footer {
+    background-color: var(--gray-color);
+  }
+
+  .footer-links ul li {
+    list-style: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 0;
+  }
+
+  .footer-links {
+    width: 33%;
+  }
+  .social-media {
+    width: 66%;
+    justify-content: right;
+  }
+
+.icon {
+    width: 50px;
+    /* height: 50px; */
+    
+}
+.copyright {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+
+
+
+/*PAGES STYLES///////////////////*/
+/*PRIVACY PAGE*/
+
+#privacy-policy-h1 {
+    padding: 20px;
+    text-align: center;
+}
+
+.privacy-policy-h2 {
+    padding: 20px 0 !important;
+}
+.privacy-policy-p {
+    padding: 10px 0 !important;
+}
+
+/* Media 1000 /////////////////////////////////////////////// */
+@media(max-width: 1000px) {
+    .strap-line {
+        display: none;
+    }
+    .logo-circle {
+       margin-right: 0;
+    }
+}
+
+
+
+
+
+/* Media 1000 /////////////////////////////////////////////// */
+@media(max-width: 1000px) {
+   
+}
+
+/* Media 900 ////////////////////////////////////////////////// */
+@media(max-width: 900px) {
+    .full-width-section {
+        flex-direction: column;
+       }
+    
+       /*Audio in above the fold*/
+    
+       .audio-demos-container {
+        display: block;
+    }
+        .audio-demos, .video-demos {
+            width: 100%;
+            padding: 20px 0;
+    }
+    
+    
+    
+    
+    
+    
+    .half-width-section, .full-width-section, .third-width-section, .two-third-width-section {
+        width: 100%;
+    }
+    
+    .picture-title-div {
+        height: 150px;
+    }
+
+    /*examples of work education*/
+    
+    .examples-of-work-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .video-and-logos-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .image-div-row, .image-div-square {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .single-img-div {
+        width: 45%;
+    }
+    
+    .video-friends-container {
+        width: 90%;
+    }
+    
+    .video-friends-container {
+        /* background-color: green; */
+        width: 90%;
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .examples-of-work-text {
+        width: 90%;
+      
+    }
+    
+    
+    /*Examples of Work Medical */
+    
+    .video-text-medical {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .medical-text {
+        width: 100%;
+    }
+    
+    .medical-logos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /*Examples of Work Narration */
+    
+    .video-text-narration {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .narration-text {
+        width: 100%;
+    }
+    
+    .narration-logos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /*Character*/
+    
+    .video-text-character {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .character-text {
+        width: 100%;
+    }
+    
+    .character-logos {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .text-logos-government {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .audio-book-card {
+        flex-direction: column;
+    
+    
+    }
+    
+    .single-logo-div {
+        width: 45%;
+    }
+    
+    .about-paragraph {
+        flex-direction: column;
+    }
+
+
+   
+
+    /*orange button*/
+    .orange-button {
+        font-size: 2rem;
+        width: 90%;
+        height: auto;
+        padding: 20px;
+
+     }
+
+     .review-card {
+        width: 90%;
+     }
+
+     .image-justify-right, .image-justify-left {
+        justify-content: center;
+     }
+
+
+     /*Footer*/
+
+     .map-contact-details {
+        flex-direction: column;
+     }
+     #map {
+        width: 100%;
+     }
+
+     .footer-container {
+        flex-direction: column;
+     }
+
+     .social-media {
+        width: 100%;
+        justify-content: center;
+       
+     }
+
+     .form-top-div {
+        flex-direction: column;
+        width: 100%;
+     }
+
+     footer .links {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+     }
+
+     footer .links ul li {
+        text-align: center;
+     }
+
+     
+   
+}
+/* Media 550/////////////////////////////////////////////// */
+@media(max-width: 550px) {
+    .hero-box .hero-heading {
+        font-size: 0.7rem;   
+    }
+}
