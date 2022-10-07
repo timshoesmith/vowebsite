@@ -2,8 +2,8 @@
             <div class="footer-container display-flex">
                 <div class="footer-links">
                     <ul class="footer-nav-menu">
-                        <li class="footer-nav-items"><a href="privacy-policy.php">PRIVACY POLICY</a></li>
-                        <li class="footer-nav-items"><a href="studio.php">STUDIO</a></li>
+                        <li class="footer-nav-items"><a href="http://localhost:8080/vodatabase/privacy-policy/">PRIVACY POLICY</a></li>
+                        <li class="footer-nav-items"><a href="http://localhost:8080/vodatabase/studio/">STUDIO</a></li>
                         <li class="footer-nav-items"><a href="#">BLOG</a></li>
                         <li class="footer-nav-items"><a href="contact.php">CONTACT</a></li>
                     </ul>

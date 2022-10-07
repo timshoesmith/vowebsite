@@ -15,11 +15,13 @@
                     <div class="logo-circle center-text">TS</div>
                     <p class="strap-line">TIM SHOESMITH Voiceover Artist</p>
                 </div>
+                
                 <ul class="nav-menu">
-                    <li class="nav-items"><a href="index.php">HOME</a></li>
-                    <li class="nav-items"><a href="index.php#clients">CLIENTS</a></li>
-                    <li class="nav-items"><a href="index.php#about">ABOUT</a></li>
-                    <li class="nav-items"><a href="studio.php">STUDIO</a></li>
+                    <!-- Replace http://localhost:8080/ with echo ABSPATH -->
+                    <li class="nav-items"><a href="http://localhost:8080/vodatabase/">HOME</a></li>
+                    <li class="nav-items"><a href="http://localhost:8080/vodatabase/index.php#clients">CLIENTS</a></li>
+                    <li class="nav-items"><a href="http://localhost:8080/vodatabase/index.php#about">ABOUT</a></li>
+                    <li class="nav-items"><a href="http://localhost:8080/vodatabase/studio/">STUDIO</a></li>
                     <li class="nav-items"><a href="#">BLOG</a></li>
                     <li class="nav-items"><a href="contact.php" class="btn-signup">CONTACT</a></li>
                 </ul>
